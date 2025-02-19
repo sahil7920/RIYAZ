@@ -24,4 +24,4 @@ RUN pip3 install --no-cache-dir -r requirements.txt
 RUN pip3 install --no-cache-dir telebot flask aiogram pyTelegramBotAPI python-telegram-bot
 
 # Flutter APK और Python स्क्रिप्ट को एक साथ रन करो
-CMD ["bash", "-c", "flutter build apk & python3 m.py"]
+CMD ["bash", "-c", "flutter build apk & python3 FLASH.py"]
